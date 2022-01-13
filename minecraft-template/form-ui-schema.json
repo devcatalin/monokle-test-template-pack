@@ -1,0 +1,18 @@
+{
+  "acceptEula": {
+    "ui:title": "Accept EULA",
+    "ui:help": "Whether or not to accept the EULA"
+  },
+  "version": {
+    "ui:title": "Minecraft Version",
+    "ui:help": "One of: LATEST, SNAPSHOT, or a specific version (ie: 1.7.9)"
+  },
+  "maxPlayers": {
+    "ui:title": "Max players",
+    "ui:help": "Max connected players."
+  },
+  "persistWorlds": {
+    "ui:title": "Persist Worlds",
+    "ui:help": "Whether or not to persist the worlds between server restarts."
+  }
+}

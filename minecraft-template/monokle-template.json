@@ -1,0 +1,21 @@
+{
+    "name": "Minecraft Server (Test Template Pack)",
+    "id": "com.github.devcatalin.monokle-test-template-pack.minecraft",
+    "author": "Catalin",
+    "version": "1.0.0",
+    "description": "Create your own Minecraft server",
+    "type": "helm-chart",
+    "forms": [
+        {
+            "name": "Minecraft Server",
+            "description": "Default settings for your Minecraft Server",
+            "schema": "form-schema.json",
+            "uiSchema": "form-ui-schema.json"
+        }
+    ],
+    "valuesFilePath": "values.yaml",
+    "chartName": "minecraft",
+    "chartVersion": "3.6.1",
+    "chartRepo": "https://itzg.github.io/minecraft-server-charts/",
+    "helpUrl": "https://artifacthub.io/packages/helm/minecraft-server-charts/minecraft"
+}
