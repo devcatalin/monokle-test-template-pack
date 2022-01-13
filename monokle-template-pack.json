@@ -2,11 +2,11 @@
   "id": "com.github.devcatalin.monokle-test-template-pack",
   "name": "Monokle Test Template Pack",
   "author": "Catalin",
-  "version: "1.0.0",
+  "version": "1.0.0",
   "description": "Test template pack",
   "templates": [
-	{
-	  path: "minecraft-template",
-	}
+    {
+      "path": "minecraft-template"
+    }
   ]
 }
