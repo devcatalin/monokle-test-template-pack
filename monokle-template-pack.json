@@ -4,6 +4,7 @@
   "author": "Catalin",
   "version": "1.0.0",
   "description": "Test template pack",
+  "repository": "https://github.com/monokle-test-template-pack",
   "templates": [
     {
       "path": "minecraft-template"
