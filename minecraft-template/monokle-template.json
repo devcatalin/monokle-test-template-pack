@@ -4,6 +4,7 @@
     "author": "Catalin",
     "version": "1.0.0",
     "description": "Create your own Minecraft server",
+    "repository": "https://github.com/monokle-test-template-pack",
     "type": "helm-chart",
     "forms": [
         {
