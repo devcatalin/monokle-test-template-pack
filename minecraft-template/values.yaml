@@ -70,9 +70,9 @@ extraVolumes: [ ]
 
 minecraftServer:
   # This must be overridden, since we can't accept this for the user.
-  eula: ${forms[0].acceptEula}
+  eula: {{forms[0].acceptEula}}
   # One of: LATEST, SNAPSHOT, or a specific version (ie: "1.7.9").
-  version: ${forms[0].version}
+  version: {{forms[0].version}}
   # This can be one of "VANILLA", "FORGE", "SPIGOT", "BUKKIT", "PAPER", "FTBA", "SPONGEVANILLA", "CURSEFORGE"
   type: "VANILLA"
   # If type is set to FORGE, this sets the version; this is ignored if forgeInstallerUrl is set
@@ -102,7 +102,7 @@ minecraftServer:
   # A server icon URL for server listings. Auto-scaled and transcoded.
   icon:
   # Max connected players.
-  maxPlayers: ${forms[0].maxPlayers}
+  maxPlayers: {{forms[0].maxPlayers}}
   # This sets the maximum possible size in blocks, expressed as a radius, that the world border can obtain.
   maxWorldSize: 10000
   # Allows players to travel to the Nether.
@@ -252,7 +252,7 @@ persistence:
   # storageClass: "-"
   dataDir:
     # Set this to false if you don't care to persist state between restarts.
-    enabled: ${forms[0].persistWorlds}
+    enabled: {{forms[0].persistWorlds}}
     # existingClaim: nil
     Size: 1Gi
 
